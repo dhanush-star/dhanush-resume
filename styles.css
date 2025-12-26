@@ -15,13 +15,12 @@ body {
   border-radius: 6px;
 }
 .skills {
-   display: grid;
+   
    list-style: disc;       
-   padding: 0;             /* remove browser indentation */
+   padding: 0;             
    margin: 0;
-   list-style-position: inside;
-   grid-template-columns: repeat(auto-fit, minmax(120px,1fr));
-   gap:10px;
+   
+  
 
 }
 .collbg {
@@ -76,4 +75,5 @@ footer {
   margin-top: 30px;
   font-size: 14px;
   color: #777;
+
 }
